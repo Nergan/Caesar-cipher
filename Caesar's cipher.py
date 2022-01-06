@@ -1,23 +1,27 @@
 [
 	[
 		[
-			print(
+			print
+			(
 				'''
-				____________________________________________________\n
-        			\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+					____________________________________________________\n
+        				\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 				'''
         		,                                
-        		end                    # 足   # 渡   # 春
-        		=                      # 弱   # り   # の
-        		''                     # の   # て   # 水
-			)                             # 濁
-		]                                     # る
+        		end                            # 足   # 渡   # 春
+        		=                              # 弱   # り   # の
+        		''                             # の   # て   # 水
+			)                 	              # 濁
+		]                                             # る
 		,
 		[
-			print(
-				alp[
+			print
+            		(
+				alp
+                		[
 					(
-						alp.index(
+						alp.index
+                        			(
 							ch
 						)
         					+
@@ -38,7 +42,8 @@
 			alp
     			else
  
-			print(
+			print
+            		(
 				ch
 				,
 				end
@@ -61,27 +66,31 @@
 		alp
 	in
  
-		zip(
-			[
-				input(
-					'''
-						txt: 
-					'''
-				)
-			]
-			,
-			[
-				int(
-					input(
-						'''
-							key: 
-						'''
-					)
-				)
-			]
-			,
-			[
-				'ABCDEFGHIJKLMNOPQPRSTUVWXYZabcdefghijklmnopqprstuvwxyz'
-			]
-		)
+    zip
+    (
+        [
+            input
+            (
+                '''
+                    txt: 
+                '''
+            )
+        ]
+        ,
+        [
+            int
+            (
+                input
+                (
+                    '''
+                        key: 
+                    '''
+                )
+            )
+        ]
+        ,
+        [
+            'ABCDEFGHIJKLMNOPQPRSTUVWXYZabcdefghijklmnopqprstuvwxyz'
+        ]
+    )
 ]
